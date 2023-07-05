@@ -1,0 +1,506 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation bar */
+#navbar{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#logo{
+    margin-bottom: 0px;
+    margin-left: 40px;
+}
+
+#logo img{
+    height: 60px;
+    margin: 60px 0px;
+}
+
+/* Navigation Bar: List Styling */
+#navbar ul {
+    margin-top: 0px;
+    margin-left: 250px;
+    align-content: flex-end;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: flex-end;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    position: relative;
+    margin-top: 0px;
+    align-self: center;    
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+/* Home Section */
+#home1{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 100px;
+}
+
+#homediv{
+    height: auto;
+    justify-content: left;
+    align-items: start;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.h1{
+    font-size: 0.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+    color: orange;
+    margin-left: 10px;
+}
+
+.main{
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1px;
+    margin-bottom: 15px;
+    color: rgb(58, 58, 83);;
+    font-weight: bolder;
+}
+
+#yt{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    margin-top: 0px;
+}
+#yt .btn1{
+    display: flex;
+    padding: 7px 20px;
+    background-color: rgb(220, 159, 55);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    margin-right: 20px;
+    margin-top: 0px;
+    transition: all 1s ease-in-out;
+}
+
+#yt .btn1:hover{
+    transform: rotate(360deg);
+}
+
+#yt img{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    padding: 5px 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+    transition: all 1s ease-in-out;
+}
+
+#yt img:hover{
+    transform: rotate(360deg);
+}
+
+#yt .demo{
+    display: inline-block;
+    margin-left: 13px;
+    margin-bottom: 90px;
+    margin-top: 85px;
+    font-size: 0.8rem;
+}
+
+#image img{
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    height: 450px;
+    width: 450px;
+    margin-right: 0px;
+}
+
+/* Home Section 2 */
+#home2 .category{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(109, 108, 108);
+}
+
+#home2 .offer{
+    text-align: center;
+    margin-bottom: 50px;
+    padding: auto;
+    color: rgb(58, 58, 83);
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#services{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#services .box{
+    padding: 20px;
+    margin: 15px 23px;
+}
+
+#services .box img{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    margin: auto;
+    transition: all 1s ease-in-out;
+    animation: both;
+}
+
+#services .box img:hover{
+    transform: rotate(360deg);
+}
+
+#services .box h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+#services .box p{
+    text-align: center;
+}
+
+/* Home Section 3 */
+#home3 .selling{
+    text-align: center;
+    color: rgb(109, 108, 108);
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+#home3 .destinations{
+    text-align: center;
+    color: rgb(58, 58, 83);
+    font-size: 2.5rem;
+}
+
+#home3 .places{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#home3 .box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 25px 27px;
+}
+
+#home3 .box img{
+    height: 230px;
+    width: 230px;
+    display: inline-block;
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.places .box .para{
+    display: flex;
+}
+
+.places .primary{
+    text-align: left;
+}
+
+.places .secondary{
+    text-align: right;
+    margin-left: 95px;
+    margin-bottom: 5px;
+}
+
+.places .tertiary{
+    text-align: left;
+    margin-left: 0px;
+}
+
+/* Home Section 4 */
+#home4{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+#home4 .booking{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+#home4 .booking .easy{
+    color: rgb(109, 108, 108);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+}
+
+#home4 .booking .book{
+    color: rgb(58, 58, 83);
+    font-size: 2.5rem;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+#home4 .booking .box{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px;
+    margin-right: 20px;
+}
+
+#home4 .booking .box img{
+    height: 40px;
+    width: 40px;
+}
+
+#home4 .booking .box .box1{
+    display: flex;
+    flex-direction: column;
+}
+
+#home4 .booking .box .primary{
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(109, 108, 108);
+    font-size: 0.9rem;
+}
+
+#home4 .booking .box .secondary{
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+#home4 .image img{
+    align-items: end;
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-left: 60px;
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    transition: all 1s ease-in-out;
+}
+
+#home4 .image img:hover{
+    transform: rotate(360deg);
+}
+
+/* Home Section 5 */
+#home5{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#home5 .testimonials{
+    color: rgb(109, 108, 108);
+    font-size: 1rem;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 90px;
+    margin-bottom: 15px;
+}
+
+#home5 .people{
+    color: rgb(58, 58, 83);
+    font-size: 2.5rem;
+    margin-left: 90px;
+    margin-bottom: 15px;
+    width: 70%;
+}
+
+#home5 .left img{
+    height: 70px;
+    width: 70px;
+    margin-left: 100px;
+}
+
+#home5 .right img{
+    height: 200px;
+    width: 350px;
+    margin-top: 50px;
+    align-items: end;
+    margin-left: 10px;
+}
+
+/* Home Section 6 */
+#home6{
+    display: block;
+    margin-top: 70px;
+    margin-left: 180px;
+    align-items: center;
+}
+
+#home6 img{
+    height: 100px;
+    width: 100px;
+    padding: 10px 15px;
+    align-items: center;
+}
+
+/* Home Section 7 */
+#home7{
+    margin-top: 50px;
+    border: 2px solid rgb(238, 225, 249);
+    background-color: rgb(238, 225, 249);
+    padding: 0px 20px;
+}
+
+#home7 .subscribe{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(109, 108, 109);
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#home7 .btn1{
+    margin-top: 0px;
+    padding: 7px 80px;
+    background-color: white;
+    border: none;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    color: rgb(131, 131, 131);
+    text-align: left;  
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+#home7 .btn1:hover{
+    transform: rotate(360deg);
+}
+
+#home7 .btn2{
+    margin-left: 15px;
+    padding: 7px 20px;
+    background-color: rgb(238, 128, 55);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-top: 0px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+#home7 .btn2:hover{
+    transform: rotate(360deg);
+}
+
+/* Home section 8 */
+#home8{
+    display: flex;
+    flex-direction: row;
+    padding: 90px 20px;
+}
+
+#home8 .box{
+    padding: 7px 20px;
+}
+
+#home8 .box1 img{
+    height: 50px;
+    width: 120px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    border-top: 220px;
+}
+
+#home8 .box1 p{
+    margin-left: 70px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+#home8 .box h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home8 .box p{
+    margin-top: 25px;
+    color: rgb(131, 131, 131);
+}
+
+#home8 .box2 .upper img{
+    height: 40px;
+    width: 40px;
+    margin-left: 25px;
+}
+
+#home8 .box2 h3{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: rgb(109, 108, 109);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#home8 .box2 .boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+#home8 .box2 .middle img{
+    height: 90px;
+    width: 90px;
+    margin-left: 35px;
+
+}
+
+#home8 .box2 .lower img{
+    height: 30px;
+    width: 90px;
+    margin-top: 30px;
+}
+
+/* Footer */
+footer{
+    color: rgb(93, 92, 92);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Responsive */
+@media only screen and (max-width:700px){
+    #navbar{
+    display: flex;
+    }
+}
